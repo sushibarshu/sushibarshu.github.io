@@ -84,7 +84,7 @@ h3 {
   padding-top: 16px;
 }
 
-
+.fine-print
 
 .row {
   display: flex;
@@ -211,6 +211,10 @@ padding-right: 40px;
 }
 #contact-text {
   padding-top:8px;
+}
+
+.fine-print {
+  font-size: 10px;
 }
 
 .hidden-text {
