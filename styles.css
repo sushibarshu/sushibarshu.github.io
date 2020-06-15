@@ -134,7 +134,7 @@ h3 {
 
 
 
-#our-sushi {
+#about-us {
   overflow: auto;
   height: auto;
   margin-top: 0px;
@@ -176,7 +176,16 @@ padding-right: 40px;
   padding-right: 30%;
 }
 
-#our-chefs {
+#takeout-menu {
+  align: center;
+width: 100%;
+text-align: center;
+  padding-top: 40px;
+padding-left: 30%;
+padding-right: 30%;
+}
+
+#our-policy {
   overflow: auto;
   height: auto;
   margin-top: 0px;
