@@ -21,19 +21,186 @@
 </head>
 
 <body class="text" id="main">
-    <div class="text" id="our-sushi">
+    <div id="site" class="site-container">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">SUSHI BAR SHU</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <!-- something in here just to occupy navbar space and pushes next item right -->
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">ABOUT<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#our-policy">POLICY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#our-menu">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#takeout-menu">TAKEOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reservations-link">RESERVATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.yelp.com/reservations/sushi-bar-shu-vancouver-3?from_reserve_now=1" target="_blank">BOOK NOW</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="fullscreen-bg" id="intro">
+        <video loop muted autoplay="IMG_5193.jpg" class="fullscreen-bg__video">
+           <!--- <source src="https://sushibarshu.s3.ca-central-1.amazonaws.com/shortfilm.mov" type="video/webm"> -->
+            <source src="usethisvideo.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="text" id="about-us">
         <div id="welcome">
         </div>
         <div class="container">
             <div id="introduction">
-                <h3 id="portfolio">UNDER CONSTRUCTION</h3>
+                <h3 id="portfolio">ABOUT US</h3>
                 <div id="portfolio-text">
-                    Check back soon! We are accepting take out orders! You can find us on our Instagram page for now <a href="https://www.instagram.com/sushibarshu">here</a>
-                <br><br><br><br><br><br><br><br><br><br>
+                    Established in 2018.
+                    <br>
+                    <br>
+                    Sushi Bar Shu was incepted by Chef Hyunki Shin with the customers’ satisfaction as the main focal point. Through 18 years in his culinary journey he has trained under several notable names locally, as well as in Japan. His menu derives of dishes created through research and knowledge of pairing ingredients to enhance their natural flavors. 
+                    <br><br>
+                    Chef Shin’s obsession with the “why’s” of seasonality allows him to create simplistic yet elegant dishes. We invite you to join us at our sushi bar as we guide you through a journey of Japan’s waters.
+                    <br>
                 </div>
             </div>
         </div>
     </div>
+
+<div class="spacing"></div> 
+    <div class="row">
+      <div class="column">
+        <img src="DSC01030.jpg" alt="chefs" class="column-1">
+      </div>
+      <div class="column">
+        <img src="placeholder.jpg" alt="uni chawanmushi" class="column-2">
+      </div>
+</div>
+    <!--  <div class="spacing">  </div> <!-- this is used for spacing!! -->
+
+    <div class="text" id="our-policy">
+        <div id="welcome">
+        </div>
+        <div class="container">
+            <div id="introduction">
+                <h3 id="portfolio">COVID-19 PHASE 2 POLICY</h3>
+                <div id="portfolio-text">
+                    <p> In order to provide our guests with the safest dining experience, we hired a professional sanitation company and trained staff according to government guidelines to maintain our restaurant at the highest standards of cleanliness. <br><br>Currently we are welcoming one party of six per seating to ensure that our guests are dining only in the company of their family and close friends. <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+  <!---    <div class="spacing">
+            <!-- this is used for spacing!! -- > (remove space later)
+        </div> -->
+
+        <div class="portfolio" id="our-menu">
+            <h3 class="portfolio-header">
+          OUR MENU
+        </h3>
+            <div class="items">
+                <div class="title-1">
+                    <!-- add   onclick="openDropdown(1)"   if you want beside the span id="story-1" if you want to have dropdown again  -->
+                    <div class="menu-header"><span id="story-1"><strong>SAKURA</strong></span></div>
+                    <div class="hidden-text" id="dropdown-1">
+                        <p>2 kinds of Chef choice Sashimi Tasting</p>
+                        <p>3 kinds of appetizer</p>
+                        <p>Miso soup</p>
+                        <p>12 pieces of seasonal nigiri sushi</p>
+                        <p>Atsuyaki Tamago</p>
+                        <p>Dessert</p>
+                    </div>
+                    <div class="menu-header">138</div><br>
+                </div>
+            </div>
+            <div class="items">
+                <div class="menu-header"><span id="story-3">ADD-ONS</span></div>
+                    <div class="hidden-text" id="dropdown-2">
+                        <p class="menu-header">A5 MIYAZAKI WAGYU</p>
+                        <p>Ideal for 2 people sharing</p>
+                        <div class="menu-header">86</div><br>
+                        <p class="menu-header">CAVIAR</p>
+                        <p>One piece of sushi will be served with caviar</p>
+                        <div class="menu-header">12</div><br>
+                    </div>
+                  <div class="fine-print">For seasonal special ingredients and special menu requests, please contact us.</div>
+                </div>
+            </div>
+               
+            <div class="portfolio" id="takeout-menu">
+                <h3 class="portfolio-header">
+              TAKEOUT MENU
+            </h3>
+                <div class="items">
+                    <div class="title-1">
+                        <!-- add   onclick="openDropdown(1)"   if you want beside the span id="story-1" if you want to have dropdown again  -->
+                        <div class="hidden-text" id="dropdown-1">
+                            <p><a href="https://order.tapmango.com/merchant/bd50a32d-08db-4825-850f-d3f5f54b2c9e" target= "_blank">Please click here to visit our takeout menu and order form.</a></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+    <div class="text" id="reservations-link">
+        <div id="welcome">
+        </div>
+        <div class="container">
+            <div id="introduction">
+                <h3 id="portfolio">RESERVATIONS</h3>
+                <div id="reservations-custom">
+                    <p>Thank you for choosing Sushi Bar Shu. Please take the time to review some important information below. We look forward to seeing you!</p>
+                    <p>1. Currently we are welcoming one party of six per seating to ensure that our guests are dining only in the company of their family and close friends.</p>
+                    <p>2. The duration of the meal is 95 minutes.</p>
+                        <ul><li>First Seating 5:45pm~ 7:30pm</li>
+                        <li>Restaurant sanitize 7:30-8:00 </li>
+                        <li>Second Seating 8pm ~ 9:45pm</li></ul>
+                    <p>3. Please be on time. </p>
+                    <p>4. Each person sitting at the SUSHI BAR must order an omakase meal.</p>
+                    <p>5. For reservations, there will a non-refundable  deposit of $500. </p>
+                    <p>6. In consideration of our guests, we kindly request that you do:</p> <ul><li>not bring children younger than 4 years to the restaurant</li><li>refrain from wearing strong perfume or cologne</li><li>keep your conversation at a moderate volume</li></ul>
+                    <p>7. If you wish to change or cancel your reservation, please take the time to review our cancellation policy to avoid any charges.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="text">
+        <div id="welcome">
+        </div>
+        <div class="container">
+            <div id="introduction">
+                <h3 id="portfolio">CANCELLATION POLICY</h3>
+                <div id="reservations-custom">
+                    <p>1. Same day cancellations and no shows will be charged $128+tax per person in the reservation.</p>
+                    <p>2. If any changes of your date or time are to be made on the day of your reservation, it will be considered as a cancellation and the charge will still apply. </p>
+                    <p>3. Any deposits charged at the time of reservation is non-refundable. If the reservation is cancelled with sufficient notice(3 days), the deposit will remain as restaurant credit and must be redeemed within 30 days from the original reservation. </p>
+                    <p>4. If the number of guests in the reservation is reduced without sufficient notice, each missing person will be considered a no-show and charged $128 +tax.</p>
+                    <p>If you have any questions about our cancellation policy, please contact us via email, phone or text. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- just don't remove this div lol it's for the colouring of the website -->
+</div>
+
+                 <div class="row">
+                    <div class="column">
+                        <img src="i.jpg" alt="chefs" class="column-4">
+                    </div>
+                </div>
 
     <footer class="footer">
         <h3 id="contact">CONTACT US</h3>
@@ -41,7 +208,7 @@
             <p><a href="mailto:shin@sushibarshu.com">shin@sushibarshu.com</a><br>
             <a href="tel:6044281868" class="link-8">604 428 1868</a><br>
             Instagram: <a href="https://www.instagram.com/sushibarshu/" target="_blank" class="link-13">@sushibarshu</a><br></p>
-            <p>8099 Granville St<br>Vancouver B.C.
+            <p>8099 Granville St<br>Vancouver B.C.<br><br><a href="https://www.yelp.com/reservations/sushi-bar-shu-vancouver-3?from_reserve_now=1" target="_blank" class="link-9">Reservations</a></p>
         </div>
     </footer>
 </body>
