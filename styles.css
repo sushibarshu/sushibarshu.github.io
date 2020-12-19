@@ -87,7 +87,7 @@ h3 {
 .fine-print
 
 .red-underline {
-  text-decoration: underline;
+  text-decoration-line: underline;
   text-decoration-color: red;
 }
 
