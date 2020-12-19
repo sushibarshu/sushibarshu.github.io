@@ -86,6 +86,11 @@ h3 {
 
 .fine-print
 
+.red-underline {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
 .row {
   display: flex;
 }
