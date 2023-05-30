@@ -254,6 +254,10 @@ padding-right: 30%;
   padding-top: 16px;
 }
 
+#story-3:hover {
+  cursor: pointer;
+}
+
 /*
  #story-1:hover {
   cursor: pointer;
@@ -263,9 +267,7 @@ padding-right: 30%;
  cursor: pointer; 
 }
 
-#story-3:hover {
-  cursor: pointer;
-}
+
 
 #story-4:hover {
   cursor: pointer;
