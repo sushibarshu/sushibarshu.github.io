@@ -190,6 +190,7 @@ padding-right: 40px;
 padding-right: 40px;
   padding-left: 40px;
   padding-top: 8px;
+    color: #5f5f5f;
 }
 
 #our-menu {
@@ -218,7 +219,7 @@ padding-right: 30%;
   padding-right: 40px;
   padding-left: 40px;
   float: none;
-
+  color: #5f5f5f;
   font-size: 16px;
   line-height: 22px;
   font-weight: 100;
@@ -226,23 +227,6 @@ padding-right: 30%;
   letter-spacing: 0px;
 
 }
-
-#catering {
-  overflow: auto;
-  height: auto;
-  margin-top: 0px;
-  padding-top: 40px;
-  padding-right: 40px;
-  padding-left: 40px;
-  float: none;
-  font-size: 16px;
-  line-height: 22px;
-  font-weight: 100;
-  text-align: center;
-  letter-spacing: 0px;
-  
-}
-
 
 #our-policy {
   overflow: auto;
@@ -252,6 +236,7 @@ padding-right: 30%;
   padding-right: 40px;
   padding-left: 40px;
   float: none;
+  color: #5f5f5f;
   font-size: 16px;
   line-height: 22px;
   font-weight: 100;
